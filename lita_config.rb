@@ -22,6 +22,7 @@ Lita.configure do |config|
   config.handlers.google_images.safe_search = :off
   config.handlers.custom_meme.command_only = false
   config.handlers.giphy.api_key = "<Your API Key>"
+  config.handlers.directions.google_api_key = "<Your API Key>"
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
